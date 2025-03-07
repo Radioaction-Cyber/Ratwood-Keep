@@ -4,7 +4,7 @@
 	crate_type = /obj/structure/closet/crate/chest/merchant
 
 /datum/supply_pack/rogue/food/lesserhealthpot
-	name = "Lesser Healing Potion"
+	name = "Minor Healing Potion"
 	cost = 25
 	contains = list(
 					/obj/item/reagent_containers/glass/bottle/rogue/lesserhealthpot,
@@ -12,13 +12,13 @@
 					/obj/item/reagent_containers/glass/bottle/rogue/lesserhealthpot,
 				)
 
-/datum/supply_pack/rogue/food/lessermanapot
-	name = "Lesser Manna Potion"
+/datum/supply_pack/rogue/food/manapot
+	name = "Manna Potion"
 	cost = 24
 	contains = list(
-					/obj/item/reagent_containers/glass/bottle/rogue/lessermanapot,
-					/obj/item/reagent_containers/glass/bottle/rogue/lessermanapot,
-					/obj/item/reagent_containers/glass/bottle/rogue/lessermanapot,
+					/obj/item/reagent_containers/glass/bottle/rogue/manapot,
+					/obj/item/reagent_containers/glass/bottle/rogue/manapot,
+					/obj/item/reagent_containers/glass/bottle/rogue/manapot,
 				)
 
 /datum/supply_pack/rogue/food/wineb
