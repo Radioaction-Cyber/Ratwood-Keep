@@ -1,4 +1,4 @@
-/datum/job/roguetown/longshoreman
+/* /datum/job/roguetown/longshoreman
 	title = "Longshoreman"
 	flag = LONGSHOREMAN
 	department_flag = GARRISON
@@ -58,3 +58,4 @@
 		H.change_stat("speed", 1)
 		H.change_stat("fortune", 1)
 	ADD_TRAIT(H, TRAIT_MEDIUMARMOR, TRAIT_GENERIC)
+ */

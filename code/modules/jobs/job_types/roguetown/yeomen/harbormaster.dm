@@ -1,4 +1,4 @@
-/datum/job/roguetown/harbormaster
+/* /datum/job/roguetown/harbormaster
 	title = "Harbormaster"
 	flag = HARBORMASTER
 	department_flag = GARRISON
@@ -61,3 +61,4 @@
 		H.change_stat("speed", 1)
 		H.change_stat("fortune", 2)
 	ADD_TRAIT(H, TRAIT_MEDIUMARMOR, TRAIT_GENERIC)
+ */

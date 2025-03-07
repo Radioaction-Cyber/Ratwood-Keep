@@ -1,4 +1,4 @@
-/datum/job/roguetown/grabber
+/* /datum/job/roguetown/grabber
 	title = "Henchman"
 	flag = GRABBER
 	department_flag = MERCENARIES
@@ -136,3 +136,4 @@
 		H.change_stat("speed", 1)
 		H.change_stat("constitution", 1)
 		H.change_stat("intelligence", -4)//On par with a beggar.
+ */
