@@ -104,26 +104,6 @@
 	results = list(/datum/reagent/medicine/greaterhealthpot = 22.5) //about 7.5 oz
 	required_reagents = list(/datum/reagent/medicine/healthpot = 45, /datum/reagent/alch/syrum_poison_berry = 24)
 
-	
-/datum/chemical_reaction/alch/lessermana
-	name = "lesser mana pot"
-	id = /datum/reagent/medicine/lessermanapot
-	results = list(/datum/reagent/medicine/lessermanapot = 45)
-	required_reagents = list(/datum/reagent/alch/syrum_fish = 24, /datum/reagent/alch/syrum_ash = 24)
-
-	
-/datum/chemical_reaction/alch/mana
-	name = "mana pot"
-	id = /datum/reagent/medicine/manapot
-	results = list(/datum/reagent/medicine/manapot = 22.5)
-	required_reagents = list(/datum/reagent/medicine/lessermanapot = 45, /datum/reagent/alch/syrum_swamp_weed = 24)
-
-	
-/datum/chemical_reaction/alch/greatermana
-	name = "greater mana pot"
-	id = /datum/reagent/medicine/greatermanapot
-	results = list(/datum/reagent/medicine/greatermanapot = 22.5)
-	required_reagents = list(/datum/reagent/medicine/manapot = 45, /datum/reagent/alch/syrum_poison_berry = 24)
 
 /*documentation: 15 oz = 45 units, 1 oz = 3 units.
 2 lesser makes 1 normal bottle, 2 normal makes 1 greater bottle
