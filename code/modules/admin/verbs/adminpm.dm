@@ -211,8 +211,8 @@
 	if(recipient && reply)
 		if(sender)
 			recipient.cmd_admin_pm(sender,reply)										//sender is still about, let's reply to them
-		else
-			adminhelp(reply)													//sender has left, adminhelp instead
+//		else
+//			adminhelp(reply)													//sender has left, adminhelp instead
 
 #define IRC_AHELP_USAGE "Usage: ticket <close|resolve|icissue|reject|reopen \[ticket #\]|list>"
 /proc/IrcPm(target,msg,sender)

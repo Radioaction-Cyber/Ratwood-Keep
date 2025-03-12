@@ -224,7 +224,7 @@ GLOBAL_DATUM_INIT(ahelp_tickets, /datum/admin_help_tickets, new)
 
 //Removes the ahelp verb and returns it after 2 minutes
 /datum/admin_help/proc/TimeoutVerb()
-	initiator.verbs -= /client/verb/adminhelp
+//	initiator.verbs -= /client/verb/adminhelp
 	initiator.adminhelptimerid = addtimer(CALLBACK(initiator, TYPE_PROC_REF(/client, giveadminhelpverb)), 1200, TIMER_STOPPABLE) //2 minute cooldown of admin helps
 
 //private
@@ -496,18 +496,19 @@ GLOBAL_DATUM_INIT(ahelp_tickets, /datum/admin_help_tickets, new)
 //
 
 /client/proc/giveadminhelpverb()
-	src.verbs |= /client/verb/adminhelp
+//	src.verbs |= /client/verb/adminhelp
 	deltimer(adminhelptimerid)
 	adminhelptimerid = 0
 
 // Used for methods where input via arg doesn't work
 /client/proc/get_adminhelp()
 	var/msg = input(src, "Please describe your problem concisely and an admin will help as soon as they're able.", "Adminhelp contents") as text
-	adminhelp(msg)
+//	adminhelp(msg)
 
-/client/verb/adminhelp(msg as text)
+/* /client/verb/adminhelp(msg as text)
 	set category = "Admin"
-	set name = "Adminhelp"
+	set name = "Adminhelp" */
+	// REMOVAL OF AHELP VERB (UNCOMMENT 227, 499, 506 215 and 214, 215 IN ADMINPM.DM TO RETURN)
 
 	if(GLOB.say_disabled)	//This is here to try to identify lag problems
 		to_chat(usr, span_danger("Speech is currently admin-disabled."))
