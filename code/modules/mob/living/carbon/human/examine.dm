@@ -156,9 +156,8 @@
 
 		var/commie_text
 		if(mind)
-			if(mind.special_role == "Bandit")
-				if(HAS_TRAIT(user, TRAIT_COMMIE))
-					commie_text = span_notice("Free man!")
+			if(HAS_TRAIT(user, TRAIT_COMMIE))
+				commie_text = span_notice("PSYDON!!")
 
 			if(HAS_TRAIT(src, TRAIT_WANTED))
 				. += span_userdanger("BANDIT!")
